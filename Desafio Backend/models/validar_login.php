@@ -18,7 +18,7 @@
         $_SESSION['usuario'] = $dados_login['usuario'];
         $_SESSION['senha'] = $dados_login['senha'];
 
-        header("Location: ");
+        header("Location: ../views/adicionar_tarefa.php");
 
     } else {
         header('Location: ../views/index.php?erro=1'); //Forçando um redirecionamento para o index.php
