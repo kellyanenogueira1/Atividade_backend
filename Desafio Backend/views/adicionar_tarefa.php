@@ -30,9 +30,9 @@
                 <div class="collapse navbar-collapse" id="menu"> <!--Barra de navegação-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="adicionar_tarefa.php">Nova Tarefa</a></li>
-                       ++ <li><a href="../controllers/get_tarefas.php">Minhas Tarefas</a></li>
+                        <li><a href="../controllers/get_tarefas.php">Minhas Tarefas</a></li>
                         <li><a href="page_editar.php">Editar</a></li> 
-                        <li><a href="">Excluir</a></li>
+                        <li><a href="page_excluir.php">Excluir</a></li>
 						<li><a href="../controllers/sair.php">Sair</a></li>
                     </ul>    
                 </div>
