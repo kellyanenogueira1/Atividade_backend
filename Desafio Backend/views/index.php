@@ -1,3 +1,7 @@
+<?php
+	$erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,6 +41,12 @@
             </div>
         </div>
         
+        <?php
+            if($erro == 1){
+                echo '<font color = "#FF0000"> Usuário e/ou senha inválido(s). </font>';
+            }
+        ?>
+
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <body>
 </html>
