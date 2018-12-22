@@ -21,12 +21,12 @@
 
 	    	<div class="col-md-4">
 	    		<h3>Faça Login:</h3>
-	    	
-				<form method="post" action="" id="formLogin">
+	    		<br />
+				<form method="post" action="../models/validar_login.php" id="formLogin">
 					<div class="form-group">
 						<input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário" required="requiored">
 					</div>
-                    
+
 					<div class="form-group">
 						<input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required="requiored">
 					</div>
@@ -36,7 +36,7 @@
 				<br />
             </div>
         </div>
-
+        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <body>
 </html>
