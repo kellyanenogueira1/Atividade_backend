@@ -38,6 +38,54 @@
                 </div>
             </div> 
         </nav> 
+
+        <br /><br /><br />
+
+	    <div class="col-md-4"></div>
+		<div class="container">
+  			<div class="row">
+    			<div class="col-md-4">
+					<h3>Adicione uma tarefa:</h3>
+					<hr />
+    				<form role="form" action="../controllers/registrar_tarefa.php" method="post">
+						<div class="form-group">
+							<label for="name">Nome da tarefa</label>
+							<input type="text" class="form-control" name="nome_tarefa" id="id_tarefa" required="requiored">
+						</div>
+
+						<div class="form-group">
+							<label for="descricao">Descrição da tarefa</label>
+							<textarea type="text" class="form-control" name="descricao_tarefa" required="requiored"></textarea>
+						</div>
+
+						<div class="form-group">
+							<label for="Prioridade">Prioridade</label>
+							<select class="form-control" name="prioridade" id="id_prioridade">
+								<option value="Alta">Alta</option>
+								<option value="Media">Média</option>
+								<option value="Baixa">Baixa</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="status">Concluída?</label>
+							<select class="form-control" name="concluida" id="id_concluida">
+								<option value="Sim">Sim</option>
+								<option value="Não">Não</option>
+								
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="prazo">Prazo para efetuar tarefa</label>
+							<input type="DateTime-local" class="form-control" name="prazo_tarefa" required="requiored">
+						</div>
+
+						<button type="submit" class="btn btn-primary form-control">Editar</button>
+					</form>
+    			</div>
+              </div>
+        </div>
     
     </body>
 </html>
