@@ -1,5 +1,4 @@
-# Desafio_hostweb_backend
-Desafio do processo seletivo da Hostweb do Grupo Secrelnet
+# Atividade_backend
 
 Ao entrar na aplicação, o administrador deverá logar com usuário 'Admin' e senha 'admin' 
 para ser autenticado.
